@@ -1,0 +1,962 @@
+[
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 1,
+    "characters": 4089,
+    "replacements": 0,
+    "blocks": 15,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 2,
+    "characters": 4312,
+    "replacements": 0,
+    "blocks": 13,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 3,
+    "characters": 1902,
+    "replacements": 0,
+    "blocks": 8,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 4,
+    "characters": 2691,
+    "replacements": 0,
+    "blocks": 15,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 5,
+    "characters": 3458,
+    "replacements": 0,
+    "blocks": 18,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 6,
+    "characters": 3794,
+    "replacements": 0,
+    "blocks": 15,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 7,
+    "characters": 3407,
+    "replacements": 0,
+    "blocks": 16,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 8,
+    "characters": 3687,
+    "replacements": 0,
+    "blocks": 23,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 9,
+    "characters": 4411,
+    "replacements": 0,
+    "blocks": 18,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 10,
+    "characters": 3585,
+    "replacements": 0,
+    "blocks": 17,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 11,
+    "characters": 3400,
+    "replacements": 0,
+    "blocks": 21,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 12,
+    "characters": 3401,
+    "replacements": 0,
+    "blocks": 17,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 13,
+    "characters": 849,
+    "replacements": 0,
+    "blocks": 69,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 14,
+    "characters": 842,
+    "replacements": 0,
+    "blocks": 110,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "1706.03762v7",
+    "page": 15,
+    "characters": 842,
+    "replacements": 0,
+    "blocks": 110,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 1,
+    "characters": 2919,
+    "replacements": 0,
+    "blocks": 9,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 2,
+    "characters": 3735,
+    "replacements": 0,
+    "blocks": 6,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 3,
+    "characters": 3661,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 4,
+    "characters": 4051,
+    "replacements": 0,
+    "blocks": 4,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 5,
+    "characters": 4035,
+    "replacements": 0,
+    "blocks": 4,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 6,
+    "characters": 2410,
+    "replacements": 0,
+    "blocks": 7,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 7,
+    "characters": 3615,
+    "replacements": 0,
+    "blocks": 8,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 8,
+    "characters": 3276,
+    "replacements": 0,
+    "blocks": 15,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 9,
+    "characters": 3698,
+    "replacements": 0,
+    "blocks": 9,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 10,
+    "characters": 2807,
+    "replacements": 0,
+    "blocks": 6,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 11,
+    "characters": 3703,
+    "replacements": 0,
+    "blocks": 8,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 12,
+    "characters": 3720,
+    "replacements": 0,
+    "blocks": 7,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 13,
+    "characters": 2612,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 14,
+    "characters": 3420,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 15,
+    "characters": 3924,
+    "replacements": 0,
+    "blocks": 37,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 16,
+    "characters": 3727,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 17,
+    "characters": 3312,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 18,
+    "characters": 3182,
+    "replacements": 0,
+    "blocks": 9,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 19,
+    "characters": 2620,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 20,
+    "characters": 3722,
+    "replacements": 0,
+    "blocks": 8,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 21,
+    "characters": 3539,
+    "replacements": 0,
+    "blocks": 7,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 22,
+    "characters": 3351,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 23,
+    "characters": 4054,
+    "replacements": 0,
+    "blocks": 11,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 24,
+    "characters": 3895,
+    "replacements": 0,
+    "blocks": 6,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 25,
+    "characters": 3409,
+    "replacements": 0,
+    "blocks": 11,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 26,
+    "characters": 3654,
+    "replacements": 0,
+    "blocks": 8,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 27,
+    "characters": 4353,
+    "replacements": 0,
+    "blocks": 16,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 28,
+    "characters": 3829,
+    "replacements": 0,
+    "blocks": 5,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 29,
+    "characters": 3280,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 30,
+    "characters": 3613,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 31,
+    "characters": 3465,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 32,
+    "characters": 3786,
+    "replacements": 0,
+    "blocks": 7,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 33,
+    "characters": 3041,
+    "replacements": 0,
+    "blocks": 16,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 34,
+    "characters": 11034,
+    "replacements": 0,
+    "blocks": 87,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 35,
+    "characters": 2745,
+    "replacements": 0,
+    "blocks": 15,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 36,
+    "characters": 3575,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 37,
+    "characters": 3240,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 38,
+    "characters": 3118,
+    "replacements": 0,
+    "blocks": 14,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 39,
+    "characters": 3575,
+    "replacements": 0,
+    "blocks": 14,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 40,
+    "characters": 3940,
+    "replacements": 0,
+    "blocks": 15,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 41,
+    "characters": 3413,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 42,
+    "characters": 2812,
+    "replacements": 0,
+    "blocks": 13,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 43,
+    "characters": 3209,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 44,
+    "characters": 2959,
+    "replacements": 0,
+    "blocks": 13,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 45,
+    "characters": 3027,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 46,
+    "characters": 3057,
+    "replacements": 0,
+    "blocks": 13,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 47,
+    "characters": 2823,
+    "replacements": 0,
+    "blocks": 14,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 48,
+    "characters": 2868,
+    "replacements": 0,
+    "blocks": 14,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 49,
+    "characters": 3283,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 50,
+    "characters": 2754,
+    "replacements": 0,
+    "blocks": 16,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 51,
+    "characters": 2888,
+    "replacements": 0,
+    "blocks": 14,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 52,
+    "characters": 2895,
+    "replacements": 0,
+    "blocks": 14,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 53,
+    "characters": 3541,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 54,
+    "characters": 2990,
+    "replacements": 0,
+    "blocks": 14,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 55,
+    "characters": 3034,
+    "replacements": 0,
+    "blocks": 9,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 56,
+    "characters": 1743,
+    "replacements": 0,
+    "blocks": 24,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 57,
+    "characters": 3160,
+    "replacements": 0,
+    "blocks": 48,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 58,
+    "characters": 3769,
+    "replacements": 0,
+    "blocks": 10,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 59,
+    "characters": 11534,
+    "replacements": 0,
+    "blocks": 92,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 60,
+    "characters": 1524,
+    "replacements": 0,
+    "blocks": 21,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 61,
+    "characters": 5114,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 62,
+    "characters": 2743,
+    "replacements": 0,
+    "blocks": 6,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 63,
+    "characters": 2811,
+    "replacements": 0,
+    "blocks": 4,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 64,
+    "characters": 1927,
+    "replacements": 0,
+    "blocks": 5,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 65,
+    "characters": 2261,
+    "replacements": 0,
+    "blocks": 5,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2410.00037v1",
+    "page": 66,
+    "characters": 1875,
+    "replacements": 0,
+    "blocks": 4,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 1,
+    "characters": 4806,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 2,
+    "characters": 4975,
+    "replacements": 0,
+    "blocks": 13,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 3,
+    "characters": 2839,
+    "replacements": 0,
+    "blocks": 30,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 4,
+    "characters": 4468,
+    "replacements": 0,
+    "blocks": 16,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 5,
+    "characters": 4590,
+    "replacements": 0,
+    "blocks": 16,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 6,
+    "characters": 4051,
+    "replacements": 0,
+    "blocks": 20,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 7,
+    "characters": 4354,
+    "replacements": 0,
+    "blocks": 29,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 8,
+    "characters": 4959,
+    "replacements": 0,
+    "blocks": 24,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 9,
+    "characters": 5067,
+    "replacements": 0,
+    "blocks": 13,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 10,
+    "characters": 4428,
+    "replacements": 0,
+    "blocks": 20,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 11,
+    "characters": 5062,
+    "replacements": 0,
+    "blocks": 15,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 12,
+    "characters": 4370,
+    "replacements": 0,
+    "blocks": 16,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 13,
+    "characters": 4968,
+    "replacements": 0,
+    "blocks": 46,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 14,
+    "characters": 5323,
+    "replacements": 0,
+    "blocks": 11,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 15,
+    "characters": 9383,
+    "replacements": 0,
+    "blocks": 79,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 16,
+    "characters": 4645,
+    "replacements": 0,
+    "blocks": 43,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 17,
+    "characters": 4813,
+    "replacements": 0,
+    "blocks": 35,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 18,
+    "characters": 3857,
+    "replacements": 0,
+    "blocks": 72,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 19,
+    "characters": 5127,
+    "replacements": 0,
+    "blocks": 44,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 20,
+    "characters": 3864,
+    "replacements": 0,
+    "blocks": 37,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 21,
+    "characters": 2805,
+    "replacements": 0,
+    "blocks": 18,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 22,
+    "characters": 5125,
+    "replacements": 0,
+    "blocks": 12,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 23,
+    "characters": 4852,
+    "replacements": 0,
+    "blocks": 13,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 24,
+    "characters": 354,
+    "replacements": 0,
+    "blocks": 3,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 25,
+    "characters": 5049,
+    "replacements": 0,
+    "blocks": 3,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 26,
+    "characters": 4846,
+    "replacements": 0,
+    "blocks": 2,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 27,
+    "characters": 5126,
+    "replacements": 0,
+    "blocks": 2,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 28,
+    "characters": 5104,
+    "replacements": 0,
+    "blocks": 2,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 29,
+    "characters": 5108,
+    "replacements": 0,
+    "blocks": 2,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 30,
+    "characters": 1923,
+    "replacements": 0,
+    "blocks": 2,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 31,
+    "characters": 4127,
+    "replacements": 0,
+    "blocks": 19,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 32,
+    "characters": 4962,
+    "replacements": 0,
+    "blocks": 13,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 33,
+    "characters": 4353,
+    "replacements": 0,
+    "blocks": 15,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 34,
+    "characters": 4408,
+    "replacements": 0,
+    "blocks": 13,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 35,
+    "characters": 3085,
+    "replacements": 0,
+    "blocks": 29,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 36,
+    "characters": 3763,
+    "replacements": 0,
+    "blocks": 31,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 37,
+    "characters": 4618,
+    "replacements": 0,
+    "blocks": 32,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 38,
+    "characters": 3960,
+    "replacements": 0,
+    "blocks": 21,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  },
+  {
+    "arxiv_version": "2507.07955v2",
+    "page": 39,
+    "characters": 5348,
+    "replacements": 0,
+    "blocks": 23,
+    "note": "equations/tables require visual comparison; blocks are layout approximations"
+  }
+]

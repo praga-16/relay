@@ -1,0 +1,211 @@
+[
+  {
+    "id": "q01",
+    "question": "Why is dot-product attention scaled for large key dimensions?",
+    "answerable": true,
+    "paper": "1706.03762v7",
+    "expected_pages": [
+      4
+    ],
+    "rubric": "Large dot products push softmax into regions with extremely small gradients; scaling counteracts this."
+  },
+  {
+    "id": "q02",
+    "question": "What are the encoder layer count and model dimension in the base Transformer?",
+    "answerable": true,
+    "paper": "1706.03762v7",
+    "expected_pages": [
+      3
+    ],
+    "rubric": "N=6; model dimension 512. Both facts required."
+  },
+  {
+    "id": "q03",
+    "question": "What are the input/output and inner-layer dimensions of the position-wise feed-forward network?",
+    "answerable": true,
+    "paper": "1706.03762v7",
+    "expected_pages": [
+      5
+    ],
+    "rubric": "512 input/output; 2048 inner layer."
+  },
+  {
+    "id": "q04",
+    "question": "How does the Transformer learning rate change during and after warmup, and how long is warmup?",
+    "answerable": true,
+    "paper": "1706.03762v7",
+    "expected_pages": [
+      7
+    ],
+    "rubric": "Linear increase for 4000 steps then inverse-square-root decay."
+  },
+  {
+    "id": "q05",
+    "question": "What label smoothing value is used, and what is its effect on perplexity versus BLEU?",
+    "answerable": true,
+    "paper": "1706.03762v7",
+    "expected_pages": [
+      8
+    ],
+    "rubric": "0.1; hurts perplexity while improving accuracy and BLEU."
+  },
+  {
+    "id": "q06",
+    "question": "What is Mimi, and how does it combine semantic information with acoustic tokens?",
+    "answerable": true,
+    "paper": "2410.00037v1",
+    "expected_pages": [
+      3,
+      9,
+      10,
+      11
+    ],
+    "rubric": "Neural audio codec; distills semantic information into acoustic tokens, particularly first RVQ level."
+  },
+  {
+    "id": "q07",
+    "question": "What audio sample rate and latent frame rate does the Mimi encoder use?",
+    "answerable": true,
+    "paper": "2410.00037v1",
+    "expected_pages": [
+      10
+    ],
+    "rubric": "24 kHz audio to 12.5 frames per second."
+  },
+  {
+    "id": "q08",
+    "question": "In Moshi, what is Inner Monologue and when are text tokens predicted relative to audio?",
+    "answerable": true,
+    "paper": "2410.00037v1",
+    "expected_pages": [
+      3,
+      17,
+      18
+    ],
+    "rubric": "Time-aligned text tokens predicted before audio; not a claim about hidden reasoning."
+  },
+  {
+    "id": "q09",
+    "question": "How does Moshi handle speaking and listening at the same time?",
+    "answerable": true,
+    "paper": "2410.00037v1",
+    "expected_pages": [
+      7,
+      15,
+      16,
+      17
+    ],
+    "rubric": "Multi-stream architecture models user and system audio; does not require explicit turn taking."
+  },
+  {
+    "id": "q10",
+    "question": "What are the size and text pretraining token count of Helium?",
+    "answerable": true,
+    "paper": "2410.00037v1",
+    "expected_pages": [
+      3
+    ],
+    "rubric": "7B parameters; 2.1T public English tokens."
+  },
+  {
+    "id": "q11",
+    "question": "What are the roles of routing and smoothing in H-Net dynamic chunking?",
+    "answerable": true,
+    "paper": "2507.07955v2",
+    "expected_pages": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "rubric": "Router predicts boundaries from adjacent representations; smoothing interpolates to make boundaries learnable."
+  },
+  {
+    "id": "q12",
+    "question": "Why does H-Net replace fixed-vocabulary tokenization?",
+    "answerable": true,
+    "paper": "2507.07955v2",
+    "expected_pages": [
+      1,
+      2
+    ],
+    "rubric": "Learns content- and context-dependent segmentation jointly end to end; explain fixed-tokenization limitations."
+  },
+  {
+    "id": "q13",
+    "question": "How does H-Net maintain causality in boundary prediction and smoothing?",
+    "answerable": true,
+    "paper": "2507.07955v2",
+    "expected_pages": [
+      9
+    ],
+    "rubric": "Current/previous representations and recursive past compressed states; no future leakage."
+  },
+  {
+    "id": "q14",
+    "question": "Is H-Net dynamic chunking the same as splitting PDFs into fixed 500-token retrieval passages?",
+    "answerable": false,
+    "paper": null,
+    "expected_pages": [],
+    "rubric": "Refuse attribution: paper describes learned model segmentation; no implementation of this PDF RAG chunker."
+  },
+  {
+    "id": "q15",
+    "question": "What Groq free-tier requests-per-minute limit does the Moshi paper report?",
+    "answerable": false,
+    "paper": null,
+    "expected_pages": [],
+    "rubric": "No Groq account limits in library; refuse."
+  },
+  {
+    "id": "q16",
+    "question": "Which exact Redis configuration does Attention Is All You Need recommend for a RAG cache?",
+    "answerable": false,
+    "paper": null,
+    "expected_pages": [],
+    "rubric": "No Redis deployment configuration in library; refuse."
+  },
+  {
+    "id": "q17",
+    "question": "Does Moshi Inner Monologue reveal private chain-of-thought of every hosted LLM?",
+    "answerable": false,
+    "paper": null,
+    "expected_pages": [],
+    "rubric": "No such universal claim; refuse. Terminology trap."
+  },
+  {
+    "id": "q18",
+    "question": "Compare how the Transformer and H-Net handle positional information and causal sequence processing.",
+    "answerable": true,
+    "paper": "multiple",
+    "expected_pages": [
+      5,
+      6,
+      9
+    ],
+    "rubric": "Requires evidence from BOTH papers: positional encoding and decoder masking; H-Net causal routing/smoothing. Partial excerpt is wrong."
+  },
+  {
+    "id": "q19",
+    "question": "What functions are used for Transformer positional encodings, and why are they added to token embeddings?",
+    "answerable": true,
+    "paper": "1706.03762v7",
+    "expected_pages": [
+      6
+    ],
+    "rubric": "Sine and cosine functions of different frequencies; they give the model position/order information because attention alone has no recurrence or convolution."
+  },
+  {
+    "id": "q20",
+    "question": "What do the downsampler and upsampler do in H-Net?",
+    "answerable": true,
+    "paper": "2507.07955v2",
+    "expected_pages": [
+      3,
+      5
+    ],
+    "rubric": "The downsampler aggregates a chunk into a coarser representation; the upsampler broadcasts/interpolates coarser information back to finer representations."
+  }
+]

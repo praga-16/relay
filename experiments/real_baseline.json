@@ -1,0 +1,37 @@
+{
+  "source": "real",
+  "request_ids": [
+    "ae2eb56d32e84688b5ee2be08e4c4837",
+    "12d49b4ae542495bad8caf257043d0e6",
+    "053ed78f59c9463394640fb2fbedd7ad"
+  ],
+  "duration_s": 66.95994870000868,
+  "approved_request_cap": 3,
+  "approved_reservation_cap": 18000,
+  "relay_config": {
+    "model": "openai/gpt-oss-20b",
+    "source": "real",
+    "base_url": "https://api.groq.com/openai/v1",
+    "rpm": 24,
+    "tpm": 6400,
+    "rpd": 800,
+    "tpd": 160000,
+    "safety_margin": 0.2,
+    "concurrency": 5,
+    "queue_size": 50,
+    "max_retries": 0,
+    "verification_attempts": 1,
+    "deadline_s": 45,
+    "connect_timeout_s": 3,
+    "read_timeout_s": 15,
+    "max_completion_tokens": 500,
+    "circuit_threshold": 3,
+    "circuit_cooldown_s": 10,
+    "retrieval_setting": "A",
+    "min_similarity": 0.3,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+    "seed": 42,
+    "real_calls_approved": true
+  }
+}

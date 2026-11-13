@@ -1,0 +1,1756 @@
+[
+  {
+    "request_id": "e11a2efc1a284442a4fd95b5bb3f5664",
+    "evaluation_id": "q01",
+    "retrieval_ms": 816.2421000015456,
+    "verification_ms": 0.6785999867133796,
+    "ready_ms": 1629.3660000083037,
+    "first_token_ms": 1629.3736000079662,
+    "total_ms": 1744.4916999957059,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 799.5307999954093,
+        "tokens_in": 1016,
+        "tokens_out": 237,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9999",
+          "x-ratelimit-remaining-tokens": "998747"
+        },
+        "total_ms": 811.5090999926906
+      }
+    ]
+  },
+  {
+    "request_id": "bfd40cec0c394532ac7d004aab5bc200",
+    "evaluation_id": "q02",
+    "retrieval_ms": 32.50840000691824,
+    "verification_ms": 0.7807999791111797,
+    "ready_ms": 813.2455000013579,
+    "first_token_ms": 813.2562999962829,
+    "total_ms": 1011.9617999880575,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 762.3544000089169,
+        "tokens_in": 825,
+        "tokens_out": 426,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9998",
+          "x-ratelimit-remaining-tokens": "997496"
+        },
+        "total_ms": 779.121400002623
+      }
+    ]
+  },
+  {
+    "request_id": "813183eae3bf48bf8e34caf8697543d5",
+    "evaluation_id": "q03",
+    "retrieval_ms": 29.24520001397468,
+    "verification_ms": 0.5478000093717128,
+    "ready_ms": 810.0969000079203,
+    "first_token_ms": 810.1039000030141,
+    "total_ms": 914.7205000044778,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 769.8693999846,
+        "tokens_in": 977,
+        "tokens_out": 221,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9997",
+          "x-ratelimit-remaining-tokens": "996298"
+        },
+        "total_ms": 779.6781999932136
+      }
+    ]
+  },
+  {
+    "request_id": "56e1e3c963dd4116a14a2a06575ee66c",
+    "evaluation_id": "q04",
+    "retrieval_ms": 60.3650999837555,
+    "verification_ms": 0.5846999993082136,
+    "ready_ms": 1568.5713999846485,
+    "first_token_ms": 1568.5798000195064,
+    "total_ms": 1767.1094000106677,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 753.0658000032417,
+        "tokens_in": 886,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9996",
+          "x-ratelimit-remaining-tokens": "995409"
+        },
+        "total_ms": 755.9894000005443
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 736.0581000102684,
+        "tokens_in": 1472,
+        "tokens_out": 433,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9995",
+          "x-ratelimit-remaining-tokens": "993504"
+        },
+        "total_ms": 750.4764999903273
+      }
+    ]
+  },
+  {
+    "request_id": "1c39ed27b6d242069eec257d0adc35e6",
+    "evaluation_id": "q05",
+    "retrieval_ms": 66.03099999483675,
+    "verification_ms": 0.040099985199049115,
+    "ready_ms": 1569.6932999999262,
+    "first_token_ms": 1569.700499996543,
+    "total_ms": 1570.1103000028525,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 748.425599973416,
+        "tokens_in": 940,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9994",
+          "x-ratelimit-remaining-tokens": "992561"
+        },
+        "total_ms": 751.4552999928128
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 748.2412999961525,
+        "tokens_in": 1793,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9993",
+          "x-ratelimit-remaining-tokens": "990765"
+        },
+        "total_ms": 751.057999994373
+      }
+    ]
+  },
+  {
+    "request_id": "3993c4c874ce422da69a7fb36928c2f1",
+    "evaluation_id": "q06",
+    "retrieval_ms": 29.361900000367314,
+    "verification_ms": 0.7512000156566501,
+    "ready_ms": 818.2665000203997,
+    "first_token_ms": 818.2732999848668,
+    "total_ms": 927.330799982883,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 776.8076999927871,
+        "tokens_in": 815,
+        "tokens_out": 207,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9992",
+          "x-ratelimit-remaining-tokens": "989743"
+        },
+        "total_ms": 787.371999991592
+      }
+    ]
+  },
+  {
+    "request_id": "bd20d158391b4200861971a6ad0880a5",
+    "evaluation_id": "q07",
+    "retrieval_ms": 27.625300019280985,
+    "verification_ms": 0.2804999821819365,
+    "ready_ms": 789.1981000138912,
+    "first_token_ms": 789.2046000051778,
+    "total_ms": 876.4867999998387,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 751.4958000101615,
+        "tokens_in": 906,
+        "tokens_out": 182,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9991",
+          "x-ratelimit-remaining-tokens": "988655"
+        },
+        "total_ms": 760.6316000164952
+      }
+    ]
+  },
+  {
+    "request_id": "16a23a369a6e47a0840b6724543eba58",
+    "evaluation_id": "q08",
+    "retrieval_ms": 28.99180000531487,
+    "verification_ms": 0.6388000037986785,
+    "ready_ms": 793.9979000075255,
+    "first_token_ms": 794.0030999889132,
+    "total_ms": 904.1022000019439,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 754.2373999895062,
+        "tokens_in": 1024,
+        "tokens_out": 210,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9990",
+          "x-ratelimit-remaining-tokens": "987421"
+        },
+        "total_ms": 763.7641000037547
+      }
+    ]
+  },
+  {
+    "request_id": "778a1160b26545768a9a1c382dc1efd1",
+    "evaluation_id": "q09",
+    "retrieval_ms": 47.9607000015676,
+    "verification_ms": 0.6296999927144498,
+    "ready_ms": 811.9132999854628,
+    "first_token_ms": 811.9459000008646,
+    "total_ms": 962.6353000057861,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 750.110399996629,
+        "tokens_in": 924,
+        "tokens_out": 274,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9989",
+          "x-ratelimit-remaining-tokens": "986223"
+        },
+        "total_ms": 762.5299000064842
+      }
+    ]
+  },
+  {
+    "request_id": "f68c5ced37dc41d79fc70e487607a9cc",
+    "evaluation_id": "q10",
+    "retrieval_ms": 26.16239999770187,
+    "verification_ms": 0.34920001053251326,
+    "ready_ms": 774.7338000044692,
+    "first_token_ms": 774.7399999934714,
+    "total_ms": 784.5303000067361,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 740.0391999981366,
+        "tokens_in": 779,
+        "tokens_out": 117,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9988",
+          "x-ratelimit-remaining-tokens": "985327"
+        },
+        "total_ms": 747.5546000059694
+      }
+    ]
+  },
+  {
+    "request_id": "76612e17b73b4d8397c526ec7ccc2cc5",
+    "evaluation_id": "q11",
+    "retrieval_ms": 28.419099980965257,
+    "verification_ms": 0.42719999328255653,
+    "ready_ms": 809.2809000227135,
+    "first_token_ms": 809.2861000041012,
+    "total_ms": 929.8062000016216,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 752.146700018784,
+        "tokens_in": 929,
+        "tokens_out": 246,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9987",
+          "x-ratelimit-remaining-tokens": "984152"
+        },
+        "total_ms": 779.7794000071008
+      }
+    ]
+  },
+  {
+    "request_id": "6c008773e86641eca5a8612424e324ca",
+    "evaluation_id": "q12",
+    "retrieval_ms": 25.828399986494333,
+    "verification_ms": 0.17729998216964304,
+    "ready_ms": 798.2879999908619,
+    "first_token_ms": 798.2959999935701,
+    "total_ms": 900.1472999807447,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 763.998399983393,
+        "tokens_in": 1074,
+        "tokens_out": 156,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9986",
+          "x-ratelimit-remaining-tokens": "982922"
+        },
+        "total_ms": 771.5504999796394
+      }
+    ]
+  },
+  {
+    "request_id": "dca0739fc2a9439b9cc62bc226e91670",
+    "evaluation_id": "q13",
+    "retrieval_ms": 72.93950003804639,
+    "verification_ms": 0.0570000265724957,
+    "ready_ms": 1619.8359000263736,
+    "first_token_ms": 1619.8443000030238,
+    "total_ms": 1620.5919999920297,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 768.87749999878,
+        "tokens_in": 999,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9985",
+          "x-ratelimit-remaining-tokens": "981920"
+        },
+        "total_ms": 774.6350000088569
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 766.7991000053007,
+        "tokens_in": 1754,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9984",
+          "x-ratelimit-remaining-tokens": "980163"
+        },
+        "total_ms": 770.9262999997009
+      }
+    ]
+  },
+  {
+    "request_id": "b770a3e38cc64ce7b940d90a37cdaa60",
+    "evaluation_id": "q14",
+    "retrieval_ms": 40.29239999363199,
+    "verification_ms": 0.6152999994810671,
+    "ready_ms": 795.3351000032853,
+    "first_token_ms": 795.3436000098009,
+    "total_ms": 908.8549999869429,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 741.6860999946948,
+        "tokens_in": 1032,
+        "tokens_out": 251,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9983",
+          "x-ratelimit-remaining-tokens": "978880"
+        },
+        "total_ms": 753.463200002443
+      }
+    ]
+  },
+  {
+    "request_id": "540660495cf444a1aca6846d347bbe47",
+    "evaluation_id": "q15",
+    "retrieval_ms": 205.6165999674704,
+    "verification_ms": 0.03890000516548753,
+    "ready_ms": 1728.3914999861736,
+    "first_token_ms": 1728.3982000080869,
+    "total_ms": 1728.8885000161827,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 768.4480999887455,
+        "tokens_in": 795,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9982",
+          "x-ratelimit-remaining-tokens": "978082"
+        },
+        "total_ms": 770.8329000161029
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 747.9352000227664,
+        "tokens_in": 1406,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9981",
+          "x-ratelimit-remaining-tokens": "976673"
+        },
+        "total_ms": 750.9057999996003
+      }
+    ]
+  },
+  {
+    "request_id": "d048aa6c1c5548c1af4ff89180eb80ad",
+    "evaluation_id": "q16",
+    "retrieval_ms": 414.6788999787532,
+    "verification_ms": null,
+    "ready_ms": 415.4028999910224,
+    "first_token_ms": 415.40950001217425,
+    "total_ms": 441.0533000191208,
+    "provider_attempts": null
+  },
+  {
+    "request_id": "7108776d7d6340629142b3b875e0de33",
+    "evaluation_id": "q17",
+    "retrieval_ms": 54.17489996762015,
+    "verification_ms": 0.036200013710185885,
+    "ready_ms": 1577.6928999985103,
+    "first_token_ms": 1577.6990000158548,
+    "total_ms": 1578.10410001548,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 748.746500001289,
+        "tokens_in": 980,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9980",
+          "x-ratelimit-remaining-tokens": "975690"
+        },
+        "total_ms": 751.1200000008103
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 767.747000005329,
+        "tokens_in": 1552,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9979",
+          "x-ratelimit-remaining-tokens": "974135"
+        },
+        "total_ms": 771.2029000103939
+      }
+    ]
+  },
+  {
+    "request_id": "c056d00ba74140278f1f44f6904fc04a",
+    "evaluation_id": "q18",
+    "retrieval_ms": 52.45449999347329,
+    "verification_ms": 0.040399987483397126,
+    "ready_ms": 1554.7819000203162,
+    "first_token_ms": 1554.7889999870677,
+    "total_ms": 1555.4046999895945,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 745.5141000100411,
+        "tokens_in": 1257,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9978",
+          "x-ratelimit-remaining-tokens": "972875"
+        },
+        "total_ms": 748.3227000047918
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 749.7989000112284,
+        "tokens_in": 1980,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9977",
+          "x-ratelimit-remaining-tokens": "970892"
+        },
+        "total_ms": 752.7293000021018
+      }
+    ]
+  },
+  {
+    "request_id": "65ef074a7dba44488562c6129fc297fe",
+    "evaluation_id": "q19",
+    "retrieval_ms": 455.1625000021886,
+    "verification_ms": 0.5457999941427261,
+    "ready_ms": 1208.5447999997996,
+    "first_token_ms": 1208.5530000040308,
+    "total_ms": 1247.188500012271,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 744.7859999956563,
+        "tokens_in": 981,
+        "tokens_out": 150,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9976",
+          "x-ratelimit-remaining-tokens": "969761"
+        },
+        "total_ms": 751.7432000022382
+      }
+    ]
+  },
+  {
+    "request_id": "8b3a25f28dd943e894ed5bec3b466154",
+    "evaluation_id": "q20",
+    "retrieval_ms": 35.545799997635186,
+    "verification_ms": 0.2945000014733523,
+    "ready_ms": 801.937199983513,
+    "first_token_ms": 801.9430999993347,
+    "total_ms": 857.4452000029851,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 758.2689999835566,
+        "tokens_in": 1043,
+        "tokens_out": 165,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9975",
+          "x-ratelimit-remaining-tokens": "968553"
+        },
+        "total_ms": 765.4437999881338
+      }
+    ]
+  },
+  {
+    "request_id": "c82c1624e5b644748499fe16e4be0cc3",
+    "evaluation_id": "q01",
+    "retrieval_ms": 108.81370000424795,
+    "verification_ms": 0.6361999840009958,
+    "ready_ms": 855.65859999042,
+    "first_token_ms": 855.6651000108104,
+    "total_ms": 904.4066999922507,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 736.1107999749947,
+        "tokens_in": 1439,
+        "tokens_out": 142,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9974",
+          "x-ratelimit-remaining-tokens": "966972"
+        },
+        "total_ms": 745.1454999973066
+      }
+    ]
+  },
+  {
+    "request_id": "f78386ddc2054db5a185485f105e861a",
+    "evaluation_id": "q02",
+    "retrieval_ms": 50.754800002323464,
+    "verification_ms": 0.8701999904587865,
+    "ready_ms": 838.8523999892641,
+    "first_token_ms": 838.8604999927338,
+    "total_ms": 1095.0442000175826,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 764.2397000163328,
+        "tokens_in": 1889,
+        "tokens_out": 493,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9973",
+          "x-ratelimit-remaining-tokens": "964590"
+        },
+        "total_ms": 786.0675000119954
+      }
+    ]
+  },
+  {
+    "request_id": "13e6842592f04d3d936991b4cdb031eb",
+    "evaluation_id": "q03",
+    "retrieval_ms": 26.387699996121228,
+    "verification_ms": 1.0192999907303602,
+    "ready_ms": 772.2042000095826,
+    "first_token_ms": 772.2162999853026,
+    "total_ms": 844.9704999802634,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 732.2612999996636,
+        "tokens_in": 2117,
+        "tokens_out": 221,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9972",
+          "x-ratelimit-remaining-tokens": "962252"
+        },
+        "total_ms": 743.5980000009295
+      }
+    ]
+  },
+  {
+    "request_id": "fa0ed6c53a354b1a9484094a75fab5f2",
+    "evaluation_id": "q04",
+    "retrieval_ms": 280.98700000555255,
+    "verification_ms": 0.37429999792948365,
+    "ready_ms": 1121.5910000028089,
+    "first_token_ms": 1121.598300000187,
+    "total_ms": 1171.5911999926902,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 827.4814000178594,
+        "tokens_in": 1723,
+        "tokens_out": 206,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9971",
+          "x-ratelimit-remaining-tokens": "960323"
+        },
+        "total_ms": 838.2293000177015
+      }
+    ]
+  },
+  {
+    "request_id": "66c76ee4df28425c874c98d113df9e6e",
+    "evaluation_id": "q05",
+    "retrieval_ms": 75.70499999565072,
+    "verification_ms": 0.06210000719875097,
+    "ready_ms": 1621.8201000010595,
+    "first_token_ms": 1621.8361999781337,
+    "total_ms": 1624.7820999997202,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 738.9320000074804,
+        "tokens_in": 2675,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9970",
+          "x-ratelimit-remaining-tokens": "957645"
+        },
+        "total_ms": 742.4008000234608
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 791.338499984704,
+        "tokens_in": 4990,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9969",
+          "x-ratelimit-remaining-tokens": "952652"
+        },
+        "total_ms": 800.7877999916673
+      }
+    ]
+  },
+  {
+    "request_id": "cddfa813e13b43d98f7d7cb4205c8fc4",
+    "evaluation_id": "q06",
+    "retrieval_ms": 53.794599982211366,
+    "verification_ms": 2.678299992112443,
+    "ready_ms": 874.1003999894019,
+    "first_token_ms": 874.113199999556,
+    "total_ms": 1000.6284999835771,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 785.2204999944661,
+        "tokens_in": 2623,
+        "tokens_out": 261,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9968",
+          "x-ratelimit-remaining-tokens": "949768"
+        },
+        "total_ms": 814.3783999839798
+      }
+    ]
+  },
+  {
+    "request_id": "3de039bfe3b145b78401f8e610521650",
+    "evaluation_id": "q07",
+    "retrieval_ms": 35.52760000457056,
+    "verification_ms": 1.0009000252466649,
+    "ready_ms": 814.5904999983031,
+    "first_token_ms": 814.5988000032958,
+    "total_ms": 893.185299995821,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 764.6779000060633,
+        "tokens_in": 2683,
+        "tokens_out": 166,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9967",
+          "x-ratelimit-remaining-tokens": "946919"
+        },
+        "total_ms": 777.0270000037272
+      }
+    ]
+  },
+  {
+    "request_id": "1edd7e11b1a64cc6a95a25ed61dbd5b1",
+    "evaluation_id": "q08",
+    "retrieval_ms": 44.07740000169724,
+    "verification_ms": 1.891399995656684,
+    "ready_ms": 867.7481999911834,
+    "first_token_ms": 867.757400003029,
+    "total_ms": 1046.0337000258733,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 784.4762000022456,
+        "tokens_in": 2674,
+        "tokens_out": 339,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9966",
+          "x-ratelimit-remaining-tokens": "943906"
+        },
+        "total_ms": 820.6319999881089
+      }
+    ]
+  },
+  {
+    "request_id": "8713dd77105848d3b17e6415434e0c9a",
+    "evaluation_id": "q09",
+    "retrieval_ms": 50.22180001833476,
+    "verification_ms": 2.5385000044479966,
+    "ready_ms": 885.4943999904208,
+    "first_token_ms": 885.5070999998134,
+    "total_ms": 1127.6430000143591,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 765.5210999946576,
+        "tokens_in": 1895,
+        "tokens_out": 295,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9965",
+          "x-ratelimit-remaining-tokens": "941716"
+        },
+        "total_ms": 831.1795999761671
+      }
+    ]
+  },
+  {
+    "request_id": "21783c92e75e45098bb10078f1bf411b",
+    "evaluation_id": "q10",
+    "retrieval_ms": 58.46149998251349,
+    "verification_ms": 3.7063999916426837,
+    "ready_ms": 897.5324000057299,
+    "first_token_ms": 897.5455999898259,
+    "total_ms": 1011.5805999957956,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 787.0038999826647,
+        "tokens_in": 2272,
+        "tokens_out": 208,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9964",
+          "x-ratelimit-remaining-tokens": "939236"
+        },
+        "total_ms": 833.9092999813147
+      }
+    ]
+  },
+  {
+    "request_id": "8c848aa44d054a54ab8ca71102f35412",
+    "evaluation_id": "q11",
+    "retrieval_ms": 57.47139998129569,
+    "verification_ms": 1.9431999826338142,
+    "ready_ms": 925.4057999933138,
+    "first_token_ms": 925.4187000042293,
+    "total_ms": 1149.7945000010077,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 810.8544000133406,
+        "tokens_in": 2295,
+        "tokens_out": 264,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9963",
+          "x-ratelimit-remaining-tokens": "936677"
+        },
+        "total_ms": 864.4906000117771
+      }
+    ]
+  },
+  {
+    "request_id": "da63d40ff3724187a67958a9ed4c9f60",
+    "evaluation_id": "q12",
+    "retrieval_ms": 123.34250001003966,
+    "verification_ms": 2.6101999974343926,
+    "ready_ms": 960.0551000039559,
+    "first_token_ms": 960.0692999956664,
+    "total_ms": 1105.1081999903545,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 792.655700002797,
+        "tokens_in": 2998,
+        "tokens_out": 272,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9962",
+          "x-ratelimit-remaining-tokens": "933407"
+        },
+        "total_ms": 827.0925000251736
+      }
+    ]
+  },
+  {
+    "request_id": "e198e0889ceb428d86d5f3b96323f0ff",
+    "evaluation_id": "q13",
+    "retrieval_ms": 50.541100004920736,
+    "verification_ms": 0.5082999996375293,
+    "ready_ms": 825.9588000073563,
+    "first_token_ms": 825.9675999870524,
+    "total_ms": 860.4208999895491,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 758.0396999837831,
+        "tokens_in": 2866,
+        "tokens_out": 131,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9961",
+          "x-ratelimit-remaining-tokens": "930410"
+        },
+        "total_ms": 773.426899977494
+      }
+    ]
+  },
+  {
+    "request_id": "d7531888842c4064a9895fb282138f81",
+    "evaluation_id": "q14",
+    "retrieval_ms": 100.04269998171367,
+    "verification_ms": 0.6977999873925,
+    "ready_ms": 895.640300004743,
+    "first_token_ms": 895.6537999911234,
+    "total_ms": 905.9908000053838,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 769.1551999887452,
+        "tokens_in": 2571,
+        "tokens_out": 111,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9960",
+          "x-ratelimit-remaining-tokens": "927728"
+        },
+        "total_ms": 793.2966999942437
+      }
+    ]
+  },
+  {
+    "request_id": "af36003315f14549b61c411fc9e2de77",
+    "evaluation_id": "q15",
+    "retrieval_ms": 95.32569997827522,
+    "verification_ms": 0.06100002792663872,
+    "ready_ms": 1673.292899999069,
+    "first_token_ms": 1673.3021999825723,
+    "total_ms": 1674.071699992055,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 786.829199991189,
+        "tokens_in": 1598,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9959",
+          "x-ratelimit-remaining-tokens": "926127"
+        },
+        "total_ms": 792.7898000052664
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 777.8076000104193,
+        "tokens_in": 3518,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9958",
+          "x-ratelimit-remaining-tokens": "922606"
+        },
+        "total_ms": 782.0056999917142
+      }
+    ]
+  },
+  {
+    "request_id": "804fe998b3a14fc28e68c53560294daa",
+    "evaluation_id": "q16",
+    "retrieval_ms": 120.55989998043515,
+    "verification_ms": 0.0481999886687845,
+    "ready_ms": 1621.7211000039242,
+    "first_token_ms": 1621.7287000035867,
+    "total_ms": 1622.24620001507,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 742.9774000192992,
+        "tokens_in": 515,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9957",
+          "x-ratelimit-remaining-tokens": "922088"
+        },
+        "total_ms": 751.0419000172988
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 745.5550000013318,
+        "tokens_in": 515,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9956",
+          "x-ratelimit-remaining-tokens": "921570"
+        },
+        "total_ms": 748.2527999964077
+      }
+    ]
+  },
+  {
+    "request_id": "e0dee6a31ecd4ea3937537d309c11b35",
+    "evaluation_id": "q17",
+    "retrieval_ms": 86.5293999959249,
+    "verification_ms": 0.052099989261478186,
+    "ready_ms": 1632.106900011422,
+    "first_token_ms": 1632.11720000254,
+    "total_ms": 1632.6864000002388,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 771.1227999825496,
+        "tokens_in": 2158,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9955",
+          "x-ratelimit-remaining-tokens": "919409"
+        },
+        "total_ms": 776.7414999834727
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 763.0672000232153,
+        "tokens_in": 3450,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9954",
+          "x-ratelimit-remaining-tokens": "915956"
+        },
+        "total_ms": 766.4687000215054
+      }
+    ]
+  },
+  {
+    "request_id": "57006c399d1b4599a1764946a9103941",
+    "evaluation_id": "q18",
+    "retrieval_ms": 93.25959999114275,
+    "verification_ms": 0.16789999790489674,
+    "ready_ms": 1624.5538000075612,
+    "first_token_ms": 1624.5655000093393,
+    "total_ms": 1628.09469999047,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 752.9369999829214,
+        "tokens_in": 2429,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9953",
+          "x-ratelimit-remaining-tokens": "913524"
+        },
+        "total_ms": 761.4541999937501
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 754.3445999908727,
+        "tokens_in": 4391,
+        "tokens_out": 65,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9952",
+          "x-ratelimit-remaining-tokens": "909068"
+        },
+        "total_ms": 767.4929999921005
+      }
+    ]
+  },
+  {
+    "request_id": "db1c830b236d4571bafd1eb7b8e311cd",
+    "evaluation_id": "q19",
+    "retrieval_ms": 79.91020000190474,
+    "verification_ms": 1.1088000028394163,
+    "ready_ms": 862.6633000094444,
+    "first_token_ms": 862.6715000136755,
+    "total_ms": 901.4039000030607,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 769.2700000188779,
+        "tokens_in": 2405,
+        "tokens_out": 150,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9951",
+          "x-ratelimit-remaining-tokens": "906513"
+        },
+        "total_ms": 776.458400010597
+      }
+    ]
+  },
+  {
+    "request_id": "85bd6d3154104c66aa9452f340d5df65",
+    "evaluation_id": "q20",
+    "retrieval_ms": 31.225699989590794,
+    "verification_ms": 1.141399989137426,
+    "ready_ms": 828.3540999982506,
+    "first_token_ms": 828.360600018641,
+    "total_ms": 966.3244000112172,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 781.7115999932867,
+        "tokens_in": 3021,
+        "tokens_out": 264,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9950",
+          "x-ratelimit-remaining-tokens": "903228"
+        },
+        "total_ms": 794.7624000080395
+      }
+    ]
+  },
+  {
+    "request_id": "0c4a8e91150549dfab8d743c872c637d",
+    "evaluation_id": "q01",
+    "retrieval_ms": 96.17589999106713,
+    "verification_ms": 1.4352000143844634,
+    "ready_ms": 876.9496000022627,
+    "first_token_ms": 876.9616999779828,
+    "total_ms": 907.6419999764767,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 759.4568000058644,
+        "tokens_in": 1807,
+        "tokens_out": 142,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9949",
+          "x-ratelimit-remaining-tokens": "901279"
+        },
+        "total_ms": 777.9471999965608
+      }
+    ]
+  },
+  {
+    "request_id": "765c8d9047774fcb9ee197b6a94608bb",
+    "evaluation_id": "q02",
+    "retrieval_ms": 54.64170000050217,
+    "verification_ms": 0.982900004601106,
+    "ready_ms": 821.2120000098366,
+    "first_token_ms": 821.2266000045929,
+    "total_ms": 1058.3703000156675,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 734.4112999853678,
+        "tokens_in": 2030,
+        "tokens_out": 471,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9948",
+          "x-ratelimit-remaining-tokens": "898778"
+        },
+        "total_ms": 764.060099987546
+      }
+    ]
+  },
+  {
+    "request_id": "b8596099aece41ce9ebc8f1bb051c87f",
+    "evaluation_id": "q03",
+    "retrieval_ms": 47.95850001391955,
+    "verification_ms": 0.8197000133804977,
+    "ready_ms": 835.3044999821577,
+    "first_token_ms": 835.3128000162542,
+    "total_ms": 922.7778000058606,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 773.1095000053756,
+        "tokens_in": 2541,
+        "tokens_out": 221,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9947",
+          "x-ratelimit-remaining-tokens": "896016"
+        },
+        "total_ms": 785.3465000225697
+      }
+    ]
+  },
+  {
+    "request_id": "72fcfd40d8774ca084951f4c322970b0",
+    "evaluation_id": "q04",
+    "retrieval_ms": 35.35599997849204,
+    "verification_ms": 1.3175999920349568,
+    "ready_ms": 809.735599992564,
+    "first_token_ms": 809.7411999769974,
+    "total_ms": 947.7042999933474,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 761.607799999183,
+        "tokens_in": 1574,
+        "tokens_out": 237,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9946",
+          "x-ratelimit-remaining-tokens": "894205"
+        },
+        "total_ms": 772.2877000051085
+      }
+    ]
+  },
+  {
+    "request_id": "2cc3ef6067d24066a26c506ad1fd6bc1",
+    "evaluation_id": "q05",
+    "retrieval_ms": 75.57750001433305,
+    "verification_ms": 0.04420001641847193,
+    "ready_ms": 1622.3689999897033,
+    "first_token_ms": 1622.3751000070479,
+    "total_ms": 1622.8105000045616,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 768.4007000061683,
+        "tokens_in": 2820,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9945",
+          "x-ratelimit-remaining-tokens": "891382"
+        },
+        "total_ms": 771.5408999938518
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 770.3531000006478,
+        "tokens_in": 2820,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9944",
+          "x-ratelimit-remaining-tokens": "888559"
+        },
+        "total_ms": 773.3548000105657
+      }
+    ]
+  },
+  {
+    "request_id": "31e9674d832344d4a77f95ad55b996a3",
+    "evaluation_id": "q06",
+    "retrieval_ms": 31.804600002942607,
+    "verification_ms": 1.272399997105822,
+    "ready_ms": 807.2488000034355,
+    "first_token_ms": 807.2563000023365,
+    "total_ms": 961.5477000188548,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 760.1065000053495,
+        "tokens_in": 2780,
+        "tokens_out": 299,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9943",
+          "x-ratelimit-remaining-tokens": "885480"
+        },
+        "total_ms": 773.0968000250868
+      }
+    ]
+  },
+  {
+    "request_id": "00e6cab39a5c49c8be9fd07166884939",
+    "evaluation_id": "q07",
+    "retrieval_ms": 39.61499998695217,
+    "verification_ms": 0.8566999749746174,
+    "ready_ms": 820.2985000098124,
+    "first_token_ms": 820.3053000033833,
+    "total_ms": 895.4623000172433,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 771.0520000255201,
+        "tokens_in": 3024,
+        "tokens_out": 166,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9942",
+          "x-ratelimit-remaining-tokens": "882290"
+        },
+        "total_ms": 778.9326000201982
+      }
+    ]
+  },
+  {
+    "request_id": "a2df57ca0de84c339749b79aff514c42",
+    "evaluation_id": "q08",
+    "retrieval_ms": 29.994599986821413,
+    "verification_ms": 1.3219999964348972,
+    "ready_ms": 821.0929999768268,
+    "first_token_ms": 821.1022000177763,
+    "total_ms": 997.5344000267796,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 755.7188000064343,
+        "tokens_in": 2786,
+        "tokens_out": 339,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9941",
+          "x-ratelimit-remaining-tokens": "879165"
+        },
+        "total_ms": 788.6651000007987
+      }
+    ]
+  },
+  {
+    "request_id": "0bcc5309ad8942f794d4cdb5aa70aea4",
+    "evaluation_id": "q09",
+    "retrieval_ms": 34.06519998679869,
+    "verification_ms": 1.4214999973773956,
+    "ready_ms": 820.0811000133399,
+    "first_token_ms": 820.0888999854214,
+    "total_ms": 1014.7473999822978,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 764.2065999971237,
+        "tokens_in": 2856,
+        "tokens_out": 414,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9940",
+          "x-ratelimit-remaining-tokens": "875895"
+        },
+        "total_ms": 783.5255999816582
+      }
+    ]
+  },
+  {
+    "request_id": "321a0ef608cd41c0a042c246422c98a2",
+    "evaluation_id": "q10",
+    "retrieval_ms": 28.782400011550635,
+    "verification_ms": 1.3331999944057316,
+    "ready_ms": 809.4173999852501,
+    "first_token_ms": 809.4240000064019,
+    "total_ms": 899.3047999974806,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 769.8749999981374,
+        "tokens_in": 2524,
+        "tokens_out": 208,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9939",
+          "x-ratelimit-remaining-tokens": "873163"
+        },
+        "total_ms": 778.3717999991495
+      }
+    ]
+  },
+  {
+    "request_id": "d5db23f890d24a30830bf944449d900d",
+    "evaluation_id": "q11",
+    "retrieval_ms": 43.26559999026358,
+    "verification_ms": 1.4035000058356673,
+    "ready_ms": 833.1049999978859,
+    "first_token_ms": 833.1144000112545,
+    "total_ms": 980.1992000138853,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 764.7429000062402,
+        "tokens_in": 2438,
+        "tokens_out": 264,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9938",
+          "x-ratelimit-remaining-tokens": "870461"
+        },
+        "total_ms": 787.2376999875996
+      }
+    ]
+  },
+  {
+    "request_id": "62b925fd9622428eb9ced4265201689c",
+    "evaluation_id": "q12",
+    "retrieval_ms": 30.668499995954335,
+    "verification_ms": 1.5554999990854412,
+    "ready_ms": 813.5041000205092,
+    "first_token_ms": 813.5116999910679,
+    "total_ms": 963.8605999934953,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 769.8526000021957,
+        "tokens_in": 3307,
+        "tokens_out": 272,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9937",
+          "x-ratelimit-remaining-tokens": "866882"
+        },
+        "total_ms": 780.1038999750745
+      }
+    ]
+  },
+  {
+    "request_id": "910c8c9761b1434ead083f798f7dd2c5",
+    "evaluation_id": "q13",
+    "retrieval_ms": 27.787099999841303,
+    "verification_ms": 0.6639999919570982,
+    "ready_ms": 826.9964000210166,
+    "first_token_ms": 827.0026000100188,
+    "total_ms": 932.0466000062879,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 788.9069999800995,
+        "tokens_in": 2810,
+        "tokens_out": 207,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9936",
+          "x-ratelimit-remaining-tokens": "863865"
+        },
+        "total_ms": 797.6571999897715
+      }
+    ]
+  },
+  {
+    "request_id": "e7ac36bbca174258986d0461ad669e17",
+    "evaluation_id": "q14",
+    "retrieval_ms": 30.64230000018142,
+    "verification_ms": 0.3890999942086637,
+    "ready_ms": 824.0157999971416,
+    "first_token_ms": 824.0237999998499,
+    "total_ms": 825.9132000093814,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 782.9303999897093,
+        "tokens_in": 2793,
+        "tokens_out": 111,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9935",
+          "x-ratelimit-remaining-tokens": "860961"
+        },
+        "total_ms": 792.0717999804765
+      }
+    ]
+  },
+  {
+    "request_id": "d63b125dd29d41a587591d2bbce04545",
+    "evaluation_id": "q15",
+    "retrieval_ms": 70.0240999867674,
+    "verification_ms": 0.04469999112188816,
+    "ready_ms": 1592.5170999835245,
+    "first_token_ms": 1592.524500010768,
+    "total_ms": 1592.9540000215638,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 741.5508000121918,
+        "tokens_in": 1101,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9934",
+          "x-ratelimit-remaining-tokens": "859857"
+        },
+        "total_ms": 745.9164000174496
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 772.49760000268,
+        "tokens_in": 2287,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9933",
+          "x-ratelimit-remaining-tokens": "858820"
+        },
+        "total_ms": 775.1701999804936
+      }
+    ]
+  },
+  {
+    "request_id": "80de4a98b5ab41ddb34cec2df95d3741",
+    "evaluation_id": "q16",
+    "retrieval_ms": 68.70359997265041,
+    "verification_ms": 0.01960000372491777,
+    "ready_ms": 816.7593999824021,
+    "first_token_ms": 816.763600014383,
+    "total_ms": 817.1861000009812,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 744.2103000066709,
+        "tokens_in": 544,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9932",
+          "x-ratelimit-remaining-tokens": "859524"
+        },
+        "total_ms": 746.8743000063114
+      }
+    ]
+  },
+  {
+    "request_id": "d504ea36a9f249ad8726008e0100a288",
+    "evaluation_id": "q17",
+    "retrieval_ms": 71.68409999576397,
+    "verification_ms": 0.04630000330507755,
+    "ready_ms": 1596.2358999822754,
+    "first_token_ms": 1596.2446999910753,
+    "total_ms": 1596.8923000036739,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 748.2460999744944,
+        "tokens_in": 2886,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9931",
+          "x-ratelimit-remaining-tokens": "857833"
+        },
+        "total_ms": 751.5268999850377
+      },
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 767.313499993179,
+        "tokens_in": 5489,
+        "tokens_out": 3,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9930",
+          "x-ratelimit-remaining-tokens": "853230"
+        },
+        "total_ms": 771.1214000009932
+      }
+    ]
+  },
+  {
+    "request_id": "1698be283f5142a58e751a3e4c2097b0",
+    "evaluation_id": "q18",
+    "retrieval_ms": 37.66570001607761,
+    "verification_ms": 0.09730001329444349,
+    "ready_ms": 798.4495999990031,
+    "first_token_ms": 798.4562000201549,
+    "total_ms": 800.2003000001423,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 754.7642999852542,
+        "tokens_in": 2842,
+        "tokens_out": 65,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9929",
+          "x-ratelimit-remaining-tokens": "852228"
+        },
+        "total_ms": 759.5600000058766
+      }
+    ]
+  },
+  {
+    "request_id": "4233d11741a94aa7b6ac4edc9bd533da",
+    "evaluation_id": "q19",
+    "retrieval_ms": 43.84200001368299,
+    "verification_ms": 0.982900004601106,
+    "ready_ms": 769.7184999997262,
+    "first_token_ms": 769.7250999917742,
+    "total_ms": 824.6443000098225,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 714.2617999925278,
+        "tokens_in": 2775,
+        "tokens_out": 150,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9928",
+          "x-ratelimit-remaining-tokens": "849303"
+        },
+        "total_ms": 723.9462999859825
+      }
+    ]
+  },
+  {
+    "request_id": "aed122cbabd246f3a4ded167131db346",
+    "evaluation_id": "q20",
+    "retrieval_ms": 37.464499997440726,
+    "verification_ms": 1.0828000085894018,
+    "ready_ms": 813.6941000120714,
+    "first_token_ms": 813.7005999742541,
+    "total_ms": 964.6217999979854,
+    "provider_attempts": [
+      {
+        "attempt": 0,
+        "http_status": 200,
+        "model": "openai/gpt-oss-20b",
+        "first_token_ms": 763.2193999888841,
+        "tokens_in": 3164,
+        "tokens_out": 264,
+        "headers": {
+          "x-ratelimit-limit-requests": "10000",
+          "x-ratelimit-limit-tokens": "1000000",
+          "x-ratelimit-remaining-requests": "9927",
+          "x-ratelimit-remaining-tokens": "846818"
+        },
+        "total_ms": 773.8186999922618
+      }
+    ]
+  }
+]

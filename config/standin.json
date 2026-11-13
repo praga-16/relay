@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "first_token_s": 0.7314601500111166,
+  "token_interval_s": 0.0003263607144444471,
+  "latency_jitter_s": 0.03,
+  "load_delay_s": 0.025,
+  "failure_probability": 0.03,
+  "failure_status": 500,
+  "slow_probability": 0.05,
+  "slow_delay_s": 0.4,
+  "timeout_probability": 0.01,
+  "timeout_delay_s": 3,
+  "rpm": 120,
+  "tpm": 200000,
+  "rpd": 10000,
+  "tpd": 10000000,
+  "calibrated": true,
+  "calibration_source": "Measured real baseline provider content TTFT and stream duration; small sample, includes network",
+  "calibration_samples": 2,
+  "calibration_request_ids": [
+    "12d49b4ae542495bad8caf257043d0e6",
+    "053ed78f59c9463394640fb2fbedd7ad"
+  ]
+}

@@ -1,0 +1,649 @@
+# THE RELAY – FINAL END-TO-END BUILD INSTRUCTION
+
+You are my Senior ML Engineer, Python Architect, LLM Systems Engineer and Performance Testing Engineer.
+
+Your task is to BUILD, RUN, TEST, MEASURE, DEBUG AND COMPLETE the entire Vaani ML Engineering Intern assignment.
+
+Do not stop at planning. Implement the actual project and produce the required deliverables.
+
+## 1. WORKSPACE
+
+Operating system: Windows
+IDE: VS Code
+Project directory: D:\relay
+Python: 3.11.8
+LLM provider: Groq
+Candidate model: openai/gpt-oss-20b
+
+Existing paper directory:
+
+D:\relay\pdf\
+
+Existing files:
+- 1706.03762v7.pdf
+- 2410.00037v1.pdf
+- 2507.07955v2.pdf
+
+Inspect all existing files before changing anything.
+
+Preserve existing user data.
+
+Never overwrite the original PDFs.
+
+## 2. SECURITY REQUIREMENTS
+
+Read GROQ_API_KEY only from the root D:\relay\.env.
+
+Never print the key.
+Never expose the key in logs.
+Never include the key in source code.
+Never include the key in README.
+Never commit .env.
+Never send the key to external services other than the intended Groq API.
+
+If the existing key has been revoked, stop real-provider calls until a replacement key is configured.
+
+Do not use the malformed pdf/.env file.
+
+Create .env.example with placeholders only.
+
+Add .env and all secret files to .gitignore.
+
+Never request that I paste a secret into the conversation.
+
+## 3. GROQ CONFIGURATION
+
+Candidate model:
+openai/gpt-oss-20b
+
+User-reported limits:
+RPM: 30
+RPD: 1000
+TPM: 8000
+TPD: 200000
+
+These are reported starting values and must not be claimed as independently verified until confirmed against the actual account.
+
+Initial safety margin: 20%.
+
+Initial local budgets:
+RPM: 24
+RPD: 800
+TPM: 6400
+TPD: 160000
+
+Maximum concurrent requests: 5.
+Maximum queue size: 50.
+Maximum retries: 2.
+
+Make these configurable.
+
+Before the first Groq call:
+- Verify that the new key is configured without displaying it.
+- Verify the model is available.
+- Read the current limits.
+- Show me the expected request count and token budget.
+- Wait for approval before the first real smoke request.
+
+Never exhaust the real daily quota intentionally.
+
+Do not bypass provider restrictions.
+
+## 4. EXACT RESEARCH PAPERS
+
+Use exactly these versions:
+
+1. Attention Is All You Need
+https://arxiv.org/pdf/1706.03762v7
+
+2. Moshi: a speech-text foundation model for real-time dialogue
+https://arxiv.org/pdf/2410.00037v1
+
+3. Dynamic Chunking for End-to-End Hierarchical Sequence Modeling
+https://arxiv.org/pdf/2507.07955v2
+
+Verify existing PDFs against official downloads using SHA-256.
+
+Create papers/ and preserve original PDFs.
+
+Create paper_manifest.json containing:
+- Title
+- arXiv identifier
+- Version
+- URL
+- SHA-256
+- Page count
+- Verification status
+
+Extract text with page numbers, headings and paragraph boundaries.
+
+Inspect equations, tables, Unicode and extraction quality.
+
+Do not use external research papers as answer evidence.
+
+## 5. TECHNOLOGY STACK
+
+Use:
+- Python 3.11
+- FastAPI
+- HTTPX
+- asyncio
+- Groq SDK or HTTPX
+- Sentence Transformers
+- FAISS
+- PyMuPDF
+- pandas
+- NumPy
+- pytest
+- python-dotenv
+
+Create an isolated virtual environment.
+
+Use compatible, tested dependency versions.
+
+Do not introduce unnecessary infrastructure.
+
+## 6. PROJECT STRUCTURE
+
+Create:
+
+app/
+    api/
+    pipeline/
+    retrieval/
+    models/
+    services/
+    evaluation/
+    monitoring/
+
+papers/
+pdf/
+data/
+    extracted/
+    indexes/
+
+experiments/
+tests/
+results/
+reports/
+logs/
+config/
+scripts/
+
+main.py
+requirements.txt
+README.md
+.env.example
+.gitignore
+
+Preserve all existing files.
+
+## 7. DOCUMENT INGESTION AND RAG
+
+Implement:
+- PDF extraction
+- Page-aware document metadata
+- Configurable chunking
+- Embeddings
+- FAISS indexing
+- Similarity search
+- Duplicate detection
+- Optional reranking
+- Retrieval logging
+
+Each retrieved passage must contain:
+- Paper title
+- arXiv version
+- Page number
+- Section
+- Chunk ID
+- Text
+- Similarity score
+
+Use only the three specified papers.
+
+Create persistent indexes and reproducible indexing scripts.
+
+## 8. RETRIEVAL EXPERIMENTS
+
+Evaluate at least three configurations.
+
+A:
+200-token chunks, top 3, no reranking.
+
+B:
+500-token chunks, top 5, no reranking.
+
+C:
+500-token chunks, top 5, reranking enabled.
+
+Treat these as starting settings, not predetermined winners.
+
+Measure:
+- Correct and cited percentage
+- Wrong percentage
+- Correctly refused percentage
+- Tokens per answer
+- First-token latency
+- Total response time
+
+Select the best configuration using actual evidence.
+
+## 9. FIVE-STAGE PIPELINE
+
+Implement these stages:
+
+1. Question understanding.
+2. Research paper retrieval.
+3. Decision and explicit tool execution.
+4. Answer generation.
+5. Answer verification.
+
+Implement an explicit retrieval tool.
+
+Include branching and a bounded retry loop.
+
+Use a maximum retry count.
+
+Never retry indefinitely.
+
+Every factual answer must be grounded in retrieved passages.
+
+Validate citations against real paper metadata.
+
+When information is missing, refuse to guess.
+
+## 10. ANSWER VERIFICATION
+
+Verify:
+- Claims
+- Evidence support
+- Paper title
+- arXiv version
+- Page number
+- Citation validity
+
+Preserve retrieved evidence.
+
+Do not stream unverified factual claims.
+
+Buffer the response until verification passes, then stream the verified answer.
+
+Measure the resulting latency trade-off.
+
+## 11. GROQ ORCHESTRATION
+
+Implement:
+- Streaming requests
+- Token accounting
+- Request accounting
+- Timeouts
+- Rate-limit handling
+- Error classification
+- Retry handling
+- Provider response-header inspection
+- Request IDs
+- Cancellation
+
+Capture:
+- HTTP status
+- Model
+- Input tokens
+- Output tokens
+- First-token time
+- Total time
+- Rate-limit headers
+- Retry-After
+- Errors
+
+Distinguish RPM, TPM, RPD and TPD exhaustion.
+
+Never treat every 429 as an identical permanent daily limit.
+
+## 12. ADAPTIVE RATE LIMITER
+
+Implement:
+- Request-per-minute budget
+- Token-per-minute budget
+- Request-per-day budget
+- Token-per-day budget
+- Token reservation and reconciliation
+- Bounded queue
+- Concurrency semaphore
+- Request deadline
+- Circuit breaker
+- Exponential backoff with jitter
+
+Update local estimates using actual provider headers.
+
+Use a conservative safety margin.
+
+Do not silently switch models.
+
+When daily budget is exhausted, stop Groq calls and return a clear unavailable message.
+
+## 13. STAND-IN MODEL SERVICE
+
+Create a separate local FastAPI application.
+
+It must simulate:
+
+- Normal latency
+- Slow latency
+- First-token latency
+- Streaming
+- Failures
+- HTTP 429
+- Daily quota exhaustion
+- Timeouts
+- Load-dependent latency
+- Request capacity
+- Token capacity
+
+Make behaviour configurable.
+
+Use a reproducible random seed.
+
+Calibrate latency using actual Groq measurements.
+
+Document where the stand-in differs from Groq.
+
+Clearly label all simulated measurements.
+
+## 14. LOAD TESTING
+
+Implement these five scenarios:
+
+1. Steady traffic.
+2. Sudden burst.
+3. Sustained overload.
+4. Per-minute limit halved.
+5. Daily budget exhausted.
+
+Use real Groq for modest experiments only.
+
+Use the stand-in for high-load tests and quota-exhaustion tests.
+
+For each run, capture:
+- Offered requests
+- Requests sent
+- Duration
+- Successes
+- Failures
+- Rate limits
+- Timeouts
+- Given-up requests
+- Queue length
+- Retries
+- Tokens
+- First-token latency
+- Total latency
+
+Record whether each run is real or stand-in.
+
+## 15. ANSWER QUALITY TESTS
+
+Create at least 15 original questions.
+
+Include:
+- Questions about all three papers.
+- Questions spanning multiple sections.
+- Questions with similar terminology.
+- Questions requiring precise citations.
+- Questions not answered by the library.
+- Questions designed to mislead naive retrieval.
+
+Grade:
+- correct
+- wrong
+- refused_correctly
+- refused_wrongly
+
+Create an inspectable evaluation dataset.
+
+Use evidence-based grading.
+
+Do not accept LLM-as-judge results without inspection.
+
+## 16. RESULTS CSV
+
+Create:
+
+results/results.csv
+
+Use exactly these columns:
+
+request_id
+scenario
+source
+start_time
+first_token_ms
+total_ms
+status
+retries
+tokens_in
+tokens_out
+retrieval_setting
+answer_grade
+
+Allowed source:
+real, stand-in
+
+Allowed status:
+ok, rate_limited, timeout, error
+
+Allowed answer_grade:
+correct, wrong, refused_correctly, refused_wrongly
+
+One row per request.
+
+Include failed and abandoned requests.
+
+Do not fabricate measurements.
+
+Preserve raw data.
+
+Create additional diagnostic JSONL logs where necessary.
+
+## 17. PERFORMANCE ANALYSIS
+
+Calculate:
+- First-token p50, p95, p99.
+- Total latency p50, p95, p99.
+- Success percentage.
+- Rate-limit percentage.
+- Timeout/given-up percentage.
+- Retries per request.
+- Peak queue length.
+- Tokens per answer.
+- Cost per 1,000 answers.
+
+Use consistent percentile calculations.
+
+Clearly define denominators.
+
+Use actual measured cost where available. If the free tier has no billable cost, distinguish monetary API cost from estimated production-equivalent cost.
+
+Do not fabricate a cost.
+
+## 18. REQUIRED REPORT
+
+Create a main report no longer than two pages.
+
+Use these exact headings and order:
+
+1. What I built and why.
+2. The real service and my stand-in.
+3. Results.
+4. Where the time goes.
+5. When a limit is hit.
+6. Retrieval: quality versus cost.
+7. How this library will mislead a naive retriever.
+8. Your feedback on Vaani.
+9. Retries.
+10. What the person sees.
+11. What I'm unsure about, what I left out, what I learned.
+
+Finish with:
+
+How I worked with the assistant.
+
+Include:
+- Three important prompts and why.
+- One assistant mistake caught and how.
+- One decision where I overruled it.
+- Which implementation decisions are mine.
+
+Use actual conversation history or actual exported prompts.
+
+Do not invent feedback or personal experiences.
+
+Include all three required results tables.
+
+Write not measured where appropriate.
+
+## 19. VAAANI WEBSITE FEEDBACK
+
+Visit:
+
+https://www.vaani.dev/
+
+Record genuine observations:
+- What stood out.
+- What was confusing.
+- One proposed improvement.
+
+Do not invent website features.
+
+## 20. TESTING
+
+Use pytest.
+
+Test:
+- Ingestion
+- PDF metadata
+- Chunking
+- Embeddings
+- Retrieval
+- Citations
+- Refusals
+- Retry behaviour
+- Rate limits
+- Queue overflow
+- Concurrency
+- Token reservations
+- Timeouts
+- Streaming
+- Stand-in
+- CSV schema
+- Percentile calculations
+
+Run regression tests.
+
+Fix errors before declaring success.
+
+## 21. IMPLEMENTATION PROCESS
+
+Complete all phases:
+
+PHASE 1:
+Environment, paper verification and extraction.
+
+PHASE 2:
+RAG, embeddings and retrieval comparisons.
+
+PHASE 3:
+Groq integration and real baseline.
+
+PHASE 4:
+Five-stage pipeline and verification.
+
+PHASE 5:
+Rate limiter, queue and reliability.
+
+PHASE 6:
+Stand-in service and calibration.
+
+PHASE 7:
+Five load scenarios and quality evaluation.
+
+PHASE 8:
+CSV validation and report.
+
+PHASE 9:
+Final regression testing and submission packaging.
+
+Do not stop after producing a plan.
+
+Continue with safe implementation and testing.
+
+When a real Groq call needs approval, continue offline work while waiting.
+
+Do not claim any phase is complete without evidence.
+
+## 22. FINAL DELIVERABLES
+
+Prepare:
+- Complete Python source code.
+- requirements.txt.
+- README.md.
+- .env.example.
+- .gitignore.
+- Three verified PDFs.
+- paper_manifest.json.
+- Extracted paper text.
+- Retrieval index-building scripts.
+- Evaluation questions.
+- results.csv.
+- Diagnostic logs.
+- Experiment configuration.
+- Two-page report.
+- Assistant conversation history or actual prompt records.
+- Test results.
+
+Do not include API secrets.
+
+## 23. FINAL ACCEPTANCE AUDIT
+
+Before declaring the project complete:
+
+1. Verify all three paper versions.
+2. Verify citations.
+3. Test answer refusal.
+4. Test the five-stage pipeline.
+5. Test real Groq connectivity if authorized.
+6. Test rate limiter.
+7. Test stand-in.
+8. Run five scenarios.
+9. Evaluate at least 15 questions.
+10. Recompute all tables from results.csv.
+11. Run regression tests.
+12. Check for secrets in tracked files.
+13. Check report length and headings.
+14. Produce a final acceptance checklist.
+
+Clearly identify incomplete requirements.
+
+Do not manufacture success.
+
+## 24. START NOW
+
+Inspect D:\relay.
+
+Read the existing files and existing project audit.
+
+Begin implementing the full project.
+
+Use Python 3.11.8.
+
+Preserve original documents.
+
+Keep secrets private.
+
+Do not stop at planning.
+
+Execute tests and report actual measurements.
+
+Ask for approval only at the defined real-provider experiment gates and other irreversible external actions.
+
+The final objective is a working and defensible ML engineering submission that I can explain during the Vaani technical interview.

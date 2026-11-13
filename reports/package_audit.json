@@ -1,0 +1,14 @@
+{
+  "archive": "submission.zip",
+  "sha256": "6aa1611746a5b1394d1088492a8580264b57739ebde8cba42b680ae40b13c04a",
+  "member_count": 103,
+  "actual_zip_secret_scan": "PASS",
+  "fresh_temporary_extraction": "PASS",
+  "extracted_member_count": 103,
+  "configured_key_present_in_environment": true,
+  "secrets_found": 0,
+  "original_pdf_directory_included": false,
+  "virtual_environment_or_cache_included": false,
+  "indexes_included_because_runtime_requires_them": true,
+  "historical_measurements_overwritten": false
+}

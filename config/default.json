@@ -1,0 +1,17 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "source": "stand-in",
+  "base_url": "http://127.0.0.1:8001/openai/v1",
+  "rpm": 24, "tpm": 6400, "rpd": 800, "tpd": 160000,
+  "safety_margin": 0.2,
+  "concurrency": 5, "queue_size": 50,
+  "max_retries": 2, "verification_attempts": 2,
+  "deadline_s": 30, "connect_timeout_s": 3, "read_timeout_s": 15,
+  "max_completion_tokens": 500,
+  "circuit_threshold": 3, "circuit_cooldown_s": 10,
+  "retrieval_setting": "A", "min_similarity": 0.30,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+  "seed": 42,
+  "real_calls_approved": false
+}

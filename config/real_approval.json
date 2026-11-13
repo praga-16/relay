@@ -1,0 +1,11 @@
+{
+  "approved": true,
+  "scope": "one smoke generation, max completion 128, no retries, total reservation below 400",
+  "account_limits_confirmed": true,
+  "confirmation_method": "user confirmation from actual account Limits page in conversation",
+  "rpm": 30, "rpd": 1000, "tpm": 8000, "tpd": 200000,
+  "separate_input_output_caps": false,
+  "independently_verified_by_assistant": false,
+  "baseline_approved": true,
+  "baseline_scope": "three generation requests; <=6000 reserved tokens per request; <=18000 total; 65 seconds apart; no retries"
+}

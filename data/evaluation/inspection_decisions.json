@@ -1,0 +1,722 @@
+[
+  {
+    "request_id": "873f7ea14bbd422a89cac85d554b22a1",
+    "grade": "wrong",
+    "rationale": "Names/scaling formula are quoted but gradient explanation is missing.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "daeec1f398bd4d91a4b8f6192a2e5438",
+    "grade": "wrong",
+    "rationale": "Required six layers and dimension 512 are not given.",
+    "answer_sha256": "7bbfd092c413ec2c9ed7bee120c0f7d4bf9a61e8a8f76d02d80bca347d3b0c4d",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "98cdce0da8e84c09afc3515772731a24",
+    "grade": "wrong",
+    "rationale": "Does not give both 512 and 2048.",
+    "answer_sha256": "dfbc17bb33d294bb1288e8582fdbb0ff1f82e964d15e1b65eae8a9ec0f5d5df9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "22e8b3f5e0d34520886b7a098f792602",
+    "grade": "wrong",
+    "rationale": "Quotes Moshi training values and/or omits the required 4000-step warmup.",
+    "answer_sha256": "afc384893eaa43b61ab7c15aeb4b3510de5902229b40a2f41f67b1a335ff4112",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "3386acda9aca401f9fa319f0c48eeb6f",
+    "grade": "refused_wrongly",
+    "rationale": "Answerable on Attention p8; refused.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "f1d5eaa2778347bb8fd46c66fc4da4bb",
+    "grade": "wrong",
+    "rationale": "A includes unrelated SemantiCodec and omits codec definition; B omits codec definition; C covers codec and semantic distillation.",
+    "answer_sha256": "971ec43500896ced0894d27ee014f4b558eda741861ca3065977749643827fca",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "60cea2be62f64e0f8b845736767d7db3",
+    "grade": "wrong",
+    "rationale": "Does not clearly provide both Mimi encoder sample rate 24kHz and frame rate 12.5Hz; table/generic-rate snippets are insufficient.",
+    "answer_sha256": "557baae71c94cb971f25ed1378dcedbc1f57b11c1c0167df9cde67e29138ed10",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "56822d7e91a249a2a09c1803268893f1",
+    "grade": "wrong",
+    "rationale": "A/B omit text-before-audio ordering; C gives time-aligned text and text as prefix to audio.",
+    "answer_sha256": "93c238d215e6c187dc13eb9b82ba70d8dc202fec2154ca76641d601b23594d0e",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "1276be97023c46d7a86c6ac16904c137",
+    "grade": "correct",
+    "rationale": "A describes two streams, silence/PAD, and simultaneous listening/speaking; B/C omit the mechanism and simultaneous capability.",
+    "answer_sha256": "a32eb10adc1f0db0e500a0e45bae74a0bbea590d63e6125a04420772f547fcd0",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "929043a511634ea78c65ffaf82f1411e",
+    "grade": "wrong",
+    "rationale": "Does not give both 7B and 2.1T.",
+    "answer_sha256": "74b782ea07d9166e267c3169904d7e2d85180d241bda95bfe3545cf1cf07dc51",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "6677ec6ca9b44da59247c73408b8d9f4",
+    "grade": "wrong",
+    "rationale": "Names modules or generic chunking but omits routing boundary score and smoothing interpolation roles.",
+    "answer_sha256": "72c3b0cc4e46520a392fbc7a4b59c12924328058a4e8f0177cc878f483815be7",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "277c8693549b4de0bd5b4df092820095",
+    "grade": "wrong",
+    "rationale": "Does not explain joint content/context-dependent segmentation and tokenization motivation completely.",
+    "answer_sha256": "e2fafe17417220bd2cb3c236024cbcfcba8dd327a5909576af9fed9ee6747416",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "e18de3b8bb7a44efae310bc15e4ffa9a",
+    "grade": "refused_wrongly",
+    "rationale": "A/B refuse despite p9 evidence; C quotes a diagram fragment instead of causal mechanism.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "db92e606ccf0422c989e3b05f104d212",
+    "grade": "wrong",
+    "rationale": "Returns related chunking text without answering/rejecting the unsupported equivalence with PDF RAG chunking.",
+    "answer_sha256": "3b20c840f1467e96f5919cf9cbf8e8b1a9385f66f33f9d3415a7ebabbafd870e",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "aed4cac791944aa4a2dd491fde51b21a",
+    "grade": "refused_correctly",
+    "rationale": "Correctly refuses a Groq account-limit question absent from all three papers.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "784e51e1c80c416eb9d069b33fe7a54c",
+    "grade": "refused_correctly",
+    "rationale": "Correctly refuses Redis configuration absent from the library.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "6d08b6383c594f8488f9e326542a791c",
+    "grade": "refused_correctly",
+    "rationale": "Correctly refuses universal private chain-of-thought attribution.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "cea0049f49d74ef8939dfb6abcc6fe46",
+    "grade": "refused_wrongly",
+    "rationale": "A/B refuse despite available cross-paper evidence; C gives only H-Net masking, omitting Transformer positional/decoder evidence.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "d14d7f02395a40fdb97c74d82d4fe073",
+    "grade": "wrong",
+    "rationale": "Names/scaling formula are quoted but gradient explanation is missing.",
+    "answer_sha256": "ac32bb42d3624726113c14b9878900aaa14ccc89c760508d4d22b6ebbfbf5f7b",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "0bf70557a5f5431f99d98e838abae49f",
+    "grade": "wrong",
+    "rationale": "Required six layers and dimension 512 are not given.",
+    "answer_sha256": "2b6cb6c4cf9c8dd62cdf2eb25bdadf5fbd1d9f989416feba73b35664ea775750",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "8753a3b9bdba497e8b19d6c3abbda062",
+    "grade": "wrong",
+    "rationale": "Does not give both 512 and 2048.",
+    "answer_sha256": "5501c260ef9555353da292b8b11bad8e5b198703bb1e0bfde8e23a0374cc8d50",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "fb2f650a4afc4acc9a434ebb6f2fc06d",
+    "grade": "wrong",
+    "rationale": "Quotes Moshi training values and/or omits the required 4000-step warmup.",
+    "answer_sha256": "afc384893eaa43b61ab7c15aeb4b3510de5902229b40a2f41f67b1a335ff4112",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "54019bab7d0249b2be9e7ff96295c9c0",
+    "grade": "refused_wrongly",
+    "rationale": "Answerable on Attention p8; refused.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "4e5859ee896d48c7a5399de34432575b",
+    "grade": "wrong",
+    "rationale": "A includes unrelated SemantiCodec and omits codec definition; B omits codec definition; C covers codec and semantic distillation.",
+    "answer_sha256": "670b3ad2ce19620ab734ea10c523f544e6dc1bc4a4698416cdaa60479a6eb7c9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "7995cd5a45a1489bbd4f1e738b7409e4",
+    "grade": "wrong",
+    "rationale": "Does not clearly provide both Mimi encoder sample rate 24kHz and frame rate 12.5Hz; table/generic-rate snippets are insufficient.",
+    "answer_sha256": "b2e499c7a562f81f57f59ff371373b69f7408c5162f5fcfb8b08e6c34839d2d5",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "1ec3151f9ec544a094d4ca4f9305a192",
+    "grade": "wrong",
+    "rationale": "A/B omit text-before-audio ordering; C gives time-aligned text and text as prefix to audio.",
+    "answer_sha256": "2a285a582729d77507225517919134c1cd7cb00b618e3bacd50f62fda432cb74",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "2d267f5c7fb5415f957baeecc6ee51eb",
+    "grade": "wrong",
+    "rationale": "A describes two streams, silence/PAD, and simultaneous listening/speaking; B/C omit the mechanism and simultaneous capability.",
+    "answer_sha256": "8a7868672dc2633fbcb6f2b971e390dfaec1df19f280b5484423dd0c890df6a1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "6283fa80716742de90b4249c9737f775",
+    "grade": "wrong",
+    "rationale": "Does not give both 7B and 2.1T.",
+    "answer_sha256": "8ab0500717ee2a4ca50bcf184645c305323081880586c6b1347e025c92d97e91",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "93baafe4280b4363af877b30720e7b86",
+    "grade": "wrong",
+    "rationale": "Names modules or generic chunking but omits routing boundary score and smoothing interpolation roles.",
+    "answer_sha256": "4106d337326e311c7e95db34365e0617037ac05e6c69c1ee410fb4f54d1c080f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "71b98336a1744a63a5b1dfa4eb764ef7",
+    "grade": "wrong",
+    "rationale": "Does not explain joint content/context-dependent segmentation and tokenization motivation completely.",
+    "answer_sha256": "52b5aaa8a7c0d5ada5c0b85c102fc44391bf5ef7d92fdde517e3dfa701b73496",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "cdec4498442a4353b5c77e3d0189148a",
+    "grade": "refused_wrongly",
+    "rationale": "A/B refuse despite p9 evidence; C quotes a diagram fragment instead of causal mechanism.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "d31cbb1aed1a48bd9dbc98c0a68d3ce2",
+    "grade": "wrong",
+    "rationale": "Returns related chunking text without answering/rejecting the unsupported equivalence with PDF RAG chunking.",
+    "answer_sha256": "4da688655dc9013e33ed266d62c17aeebfe28d46ef7678986c6d9a4f387a4e1a",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "5e93d6900df0498ea44590efb91ed511",
+    "grade": "refused_correctly",
+    "rationale": "Correctly refuses a Groq account-limit question absent from all three papers.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "129536de9163417c95a6959880ab482b",
+    "grade": "refused_correctly",
+    "rationale": "Correctly refuses Redis configuration absent from the library.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "937bb632d55a47dfbc1ef3fa0f4ed76f",
+    "grade": "refused_correctly",
+    "rationale": "Correctly refuses universal private chain-of-thought attribution.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "3a89d49f73d140a7ae396a0c010a6807",
+    "grade": "refused_wrongly",
+    "rationale": "A/B refuse despite available cross-paper evidence; C gives only H-Net masking, omitting Transformer positional/decoder evidence.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "ad0e1f058e2b48eba8ae1943800c17f3",
+    "grade": "wrong",
+    "rationale": "Names/scaling formula are quoted but gradient explanation is missing.",
+    "answer_sha256": "ac32bb42d3624726113c14b9878900aaa14ccc89c760508d4d22b6ebbfbf5f7b",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "34b860233c9c4619994958f2226e8259",
+    "grade": "wrong",
+    "rationale": "Required six layers and dimension 512 are not given.",
+    "answer_sha256": "2b6cb6c4cf9c8dd62cdf2eb25bdadf5fbd1d9f989416feba73b35664ea775750",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "82b5dec91035461cba01fa7b09e31536",
+    "grade": "wrong",
+    "rationale": "Does not give both 512 and 2048.",
+    "answer_sha256": "5501c260ef9555353da292b8b11bad8e5b198703bb1e0bfde8e23a0374cc8d50",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "3aaaa837e1e84e739375a3f681e82eba",
+    "grade": "wrong",
+    "rationale": "Quotes Moshi training values and/or omits the required 4000-step warmup.",
+    "answer_sha256": "bc461252f81d3d607da418aa7b15f8febd600bb4da4bd7418f3e1e320a22e485",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "a3563ae8c8b4439c87501456737d507e",
+    "grade": "refused_wrongly",
+    "rationale": "Answerable on Attention p8; refused.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "a547e149c6da497a8558a3c18379f1c9",
+    "grade": "correct",
+    "rationale": "A includes unrelated SemantiCodec and omits codec definition; B omits codec definition; C covers codec and semantic distillation.",
+    "answer_sha256": "1f63ce90b4149e25c0a1606d1b82a116ada5c0ff261c8b71aedb2e0887ef41a5",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "7a1d2083b93d4707abef225c00736344",
+    "grade": "wrong",
+    "rationale": "Does not clearly provide both Mimi encoder sample rate 24kHz and frame rate 12.5Hz; table/generic-rate snippets are insufficient.",
+    "answer_sha256": "b2e499c7a562f81f57f59ff371373b69f7408c5162f5fcfb8b08e6c34839d2d5",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "5d943fab07ca47ca8a365cd3e4829f37",
+    "grade": "correct",
+    "rationale": "A/B omit text-before-audio ordering; C gives time-aligned text and text as prefix to audio.",
+    "answer_sha256": "70fb4b730dc275d00ee871fb617e77e84990f5266642cee42c3efd2514aea28a",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "f242b0aa97374c9da48ad154bc346b96",
+    "grade": "wrong",
+    "rationale": "A describes two streams, silence/PAD, and simultaneous listening/speaking; B/C omit the mechanism and simultaneous capability.",
+    "answer_sha256": "8a7868672dc2633fbcb6f2b971e390dfaec1df19f280b5484423dd0c890df6a1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "dbb34160521a4b0e9c5c02b9dc7677a4",
+    "grade": "wrong",
+    "rationale": "Does not give both 7B and 2.1T.",
+    "answer_sha256": "8ab0500717ee2a4ca50bcf184645c305323081880586c6b1347e025c92d97e91",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "85d7cf2fa8c844cfa9ba8f9006606f16",
+    "grade": "wrong",
+    "rationale": "Names modules or generic chunking but omits routing boundary score and smoothing interpolation roles.",
+    "answer_sha256": "4106d337326e311c7e95db34365e0617037ac05e6c69c1ee410fb4f54d1c080f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "1c41a30880c94c9ba1022e21db056ccc",
+    "grade": "wrong",
+    "rationale": "Does not explain joint content/context-dependent segmentation and tokenization motivation completely.",
+    "answer_sha256": "ec04a1f321f44f127d42578f7aa0736229f6f6cc2c3d7879308c942d9e33fd5b",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "7c680d27d7ab4831aee1341d73240894",
+    "grade": "wrong",
+    "rationale": "A/B refuse despite p9 evidence; C quotes a diagram fragment instead of causal mechanism.",
+    "answer_sha256": "eb95660b5630d5caf74a0d152ba0dd31cbdefc8663e45ab45759f4b6f9fdc559",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "8b3a7e9e352c4300884b3670517b8571",
+    "grade": "wrong",
+    "rationale": "Returns related chunking text without answering/rejecting the unsupported equivalence with PDF RAG chunking.",
+    "answer_sha256": "4da688655dc9013e33ed266d62c17aeebfe28d46ef7678986c6d9a4f387a4e1a",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "8c4b9267144c4ce9b8cc45adb05bdf8a",
+    "grade": "refused_correctly",
+    "rationale": "Correctly refuses a Groq account-limit question absent from all three papers.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "78b7e3cdd4c84f4da2815db569ad1d2f",
+    "grade": "refused_correctly",
+    "rationale": "Correctly refuses Redis configuration absent from the library.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "d0622ee0f32a4581827c1a88884b2be1",
+    "grade": "refused_correctly",
+    "rationale": "Correctly refuses universal private chain-of-thought attribution.",
+    "answer_sha256": "3971dc2d1362e82116032ff406ce550a3d96b13311c771ccbd776b4209b35fd1",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "65d5ebb6466940768968b21757779171",
+    "grade": "wrong",
+    "rationale": "A/B refuse despite available cross-paper evidence; C gives only H-Net masking, omitting Transformer positional/decoder evidence.",
+    "answer_sha256": "3b9b8c3680b9cc655c4757b65e5a9ba196495a82c850fda19787e85ff3f6dccd",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "quality_review.json"
+  },
+  {
+    "request_id": "ead68b47dd1f4885bd1187c486e309a8",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "60e78bd0ae9afc3d55d5bac122da9d1f5d225a7a651718e20bcc8f3ce1bed41f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "a4ac59cc95b74e87bab22ece17c77e3e",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "1c00faaeea1440b88d7adc497e78c2dc",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "dfbc17bb33d294bb1288e8582fdbb0ff1f82e964d15e1b65eae8a9ec0f5d5df9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "bf1514f820374f858eb1c02c0696217d",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "6d52b1c48a1e1bd29b19c468de9736589eff1b1e62bf8309e78ab579a9bb7a17",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "57ed39be60744a51bc529495e08c26b9",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "60e78bd0ae9afc3d55d5bac122da9d1f5d225a7a651718e20bcc8f3ce1bed41f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "7af664b1638e418b8bf392b6138026e3",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "d2df9667762d4b57a900d4451635cc46",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "dfbc17bb33d294bb1288e8582fdbb0ff1f82e964d15e1b65eae8a9ec0f5d5df9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "237ffce70d714dad84add12c357bab3a",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "60e78bd0ae9afc3d55d5bac122da9d1f5d225a7a651718e20bcc8f3ce1bed41f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "c142d553605e4dc8bc78ee84bb986c6a",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "bd364a8bfb0848c5aaf42c2411c4c044",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "dfbc17bb33d294bb1288e8582fdbb0ff1f82e964d15e1b65eae8a9ec0f5d5df9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "11a4170d25df4ee98a99cab5dd45253c",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "60e78bd0ae9afc3d55d5bac122da9d1f5d225a7a651718e20bcc8f3ce1bed41f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "9221be7bd4054fa5a80ce82f48742152",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "bf23a620f2e8406e89e94da350927581",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "dfbc17bb33d294bb1288e8582fdbb0ff1f82e964d15e1b65eae8a9ec0f5d5df9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "c3b1f6ebc3414f56a40f8a9030984a6e",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "82f353fae6b44411aa40c84a81c7a2ae",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "60e78bd0ae9afc3d55d5bac122da9d1f5d225a7a651718e20bcc8f3ce1bed41f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "715c70cb7ba54a9ca1c1832935ac3179",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "a525debf07e940d6921b89e9afc573b4",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "dfbc17bb33d294bb1288e8582fdbb0ff1f82e964d15e1b65eae8a9ec0f5d5df9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "79e364d6a5a14c328bb0f79bda3dc1f4",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "6d52b1c48a1e1bd29b19c468de9736589eff1b1e62bf8309e78ab579a9bb7a17",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "8cc5307cbb314436a947922901ed51bc",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "2931a4d763b6ff66f88303c3654ad39bb65bab841e10a6fed6922076b2fcc6a0",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "9df7d387df704b9684e9f3e5c7147288",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "723dfb30a44ee5d83b99dc07652b69da3d19502b6df026d254c4f60797720612",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "73f3dc2fca334ab28944012255ceb5f5",
+    "grade": "correct",
+    "rationale": "Describes simultaneous speaking/listening and silence/PAD stream behavior.",
+    "answer_sha256": "424cce4e29d891925624dacbeda7745af7085c073de5e21e48f0b6b09cbcf458",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "f694d61f49294424ad0c437ed7a07a13",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "ff724c40da14ebd7b334915a6a2c0c21594f53f0b5f6198b3b2cf49cf7c6452a",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "63fa88d753be4e41b61e07941193c3d1",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "f0c59ebf02ea7ac4e9847cf5b03fa37a80fc21c5a35942968e44c6b71df595b7",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "0d10a1f8f7c34848a16ce3d04817805f",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "1cf8d23b480376f0f44be37bbbfad7c4aa7eccd4f3cf800af30c2fd9df0a310b",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "ca2074bf5b7d4e309b6aa2b73cbe92e9",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "60e78bd0ae9afc3d55d5bac122da9d1f5d225a7a651718e20bcc8f3ce1bed41f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "f6c7820742254443af333168cf90953b",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "e044e460bd264a448e20622c21f95448",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "dfbc17bb33d294bb1288e8582fdbb0ff1f82e964d15e1b65eae8a9ec0f5d5df9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "016214d7118c4cd697ed1bdd3af52400",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "60e78bd0ae9afc3d55d5bac122da9d1f5d225a7a651718e20bcc8f3ce1bed41f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "3a772608d0914f6dafdbf69e8ffe0407",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "c001475c86a646babd7d0dff376c668b",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "dfbc17bb33d294bb1288e8582fdbb0ff1f82e964d15e1b65eae8a9ec0f5d5df9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "c1c488adc1554eb7b457fcc347cc08f1",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "60e78bd0ae9afc3d55d5bac122da9d1f5d225a7a651718e20bcc8f3ce1bed41f",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "c01227f7f44d4fdfaa9fd325322ae489",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "6b344940c6a842558f2108ced11e1b8e",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "dfbc17bb33d294bb1288e8582fdbb0ff1f82e964d15e1b65eae8a9ec0f5d5df9",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "13b0646d6efa4d849a3bbf351ba62ed3",
+    "grade": "wrong",
+    "rationale": "Inspected completed load answer is incomplete or irrelevant to required facts; see expected rubric and actual text.",
+    "answer_sha256": "16f9f5496026e8ae6b22d4ef2c09c37e8c67687b9fa53fb23cb5fe8e48bf7e9c",
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "load_quality_review.json"
+  },
+  {
+    "request_id": "12d49b4ae542495bad8caf257043d0e6",
+    "grade": "wrong",
+    "rationale": "80ms frame interval plus audio watermarking sample rate do not directly answer both Mimi encoder rates.",
+    "answer_sha256": null,
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "real_quality_review.json"
+  },
+  {
+    "request_id": "053ed78f59c9463394640fb2fbedd7ad",
+    "grade": "correct",
+    "rationale": "Routing/smoothing roles correctly quoted; extra caption is supporting context.",
+    "answer_sha256": null,
+    "reviewer": "assistant inspection; candidate review pending",
+    "source_file": "real_quality_review.json"
+  }
+]

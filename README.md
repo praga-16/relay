@@ -2,7 +2,7 @@
 
 A local, single-process, bounded RAG orchestration service over three exact arXiv PDFs.
 Python 3.11.8 / Windows. Default provider is the local simulator. No Docker or external queue.
-
+D773ZP
 ## Run on Windows PowerShell
 
 ```powershell
